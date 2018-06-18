@@ -33,10 +33,12 @@
     "versionPublish": "4.7.6",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "robotsSwitcher": "on",
-    "siteUrl": "",
+    "siteUrl": "https://ennapro.github.io",
     "sitemapSwitcherAuto": "on",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-120821810-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-120821810-1');\r\n</script>\r\n",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
