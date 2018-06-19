@@ -30,7 +30,7 @@
       "additionalSetColors": []
     },
     "siteFonts": [],
-    "robotsText": "glx_dff996189025ac0793fe2bd44b6c528d.txt\n\nGalaksion check: 5f8f41a15a5c9eeb098acffe65ec6d1a\n",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "robotsSwitcher": "on",
     "siteUrl": "https://ennapro.github.io",
     "sitemapSwitcherAuto": "on",
