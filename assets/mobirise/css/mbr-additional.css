@@ -1549,11 +1549,6 @@ body {
   padding-bottom: 90px;
   background-image: url("../../../assets/images/hot-model-2000x1125.jpg");
 }
-.cid-qVr7F89V6t {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background: linear-gradient(45deg, #7fd9fc, #6576aa);
-}
 .cid-qVr7F8Nlyf {
   padding-top: 0px;
   padding-bottom: 90px;
@@ -1709,6 +1704,11 @@ body {
 }
 .cid-qVr7KVFHFx H2 {
   text-align: center;
+}
+.cid-qVr7F89V6t {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #7fd9fc, #6576aa);
 }
 .cid-qVr7KWaGAP {
   padding-top: 30px;
