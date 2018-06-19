@@ -29,6 +29,14 @@
       }
     },
     "siteFonts": [],
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "https://ennapro.github.io",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "@PROJECT_PATH@/assets/images/logo1-128x126.png",
+    "noImageResize": "",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-120821810-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-120821810-1');\r\n</script>\r\n",
+    "sitemapSwitcher": "on",
     "versionFirst": "4.7.6",
     "uniqCompNum": 4,
     "versionPublish": "4.7.6"
@@ -37,8 +45,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Ennapro",
+        "meta_descr": "sex \nporn\nteens\nlesbian\nsexy teen\nyoung porn 18+",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
