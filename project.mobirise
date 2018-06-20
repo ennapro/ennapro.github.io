@@ -1,54 +1,44 @@
 {
   "settings": {
-    "name": "Site-06-19_1542",
-    "currentPage": "page1.html",
+    "name": "Site-06-20_1756",
+    "currentPage": "index.html",
     "theme": {
-      "name": "mobirise4",
-      "title": "Mobirise 4",
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
       "styling": {
-        "primaryColor": "#149dcc",
-        "secondaryColor": "#ff3366",
-        "successColor": "#F7ED4A",
-        "infoColor": "#82786E",
-        "warningColor": "#879A9F",
-        "dangerColor": "#B1A374",
-        "mainFont": "Rubik",
-        "display1Font": "Rubik",
-        "display1Size": 4.25,
-        "display2Font": "Rubik",
-        "display2Size": 3,
-        "display5Font": "Rubik",
-        "display5Size": 1.5,
-        "display7Font": "Rubik",
-        "display7Size": 1,
-        "display4Font": "Rubik",
-        "display4Size": 1,
-        "isRoundedButtons": true,
-        "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "primaryColor": "#4ea2e3",
+        "secondaryColor": "#4addff",
+        "successColor": "#0dcd7b",
+        "infoColor": "#8282e7",
+        "warningColor": "#767676",
+        "dangerColor": "#a0a0a0",
+        "mainFont": "Roboto",
+        "display1Font": "Roboto",
+        "display1Size": 4.5,
+        "display2Font": "Roboto",
+        "display2Size": 2.2,
+        "display5Font": "Roboto",
+        "display5Size": 1.8,
+        "display7Font": "Roboto",
+        "display7Size": 1.1,
+        "display4Font": "Roboto",
+        "display4Size": 0.9,
+        "isRoundedButtons": false
       },
       "additionalSetColors": []
     },
+    "path": "@PROJECT_PATH@",
     "siteFonts": [],
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
-    "robotsSwitcher": "on",
-    "siteUrl": "https://ennapro.github.io",
-    "sitemapSwitcherAuto": "on",
-    "favicon": "@PROJECT_PATH@/assets/images/logo1-128x126.png",
-    "noImageResize": "",
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-120821810-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-120821810-1');\r\n</script>\r\n",
-    "sitemapSwitcher": "on",
     "versionFirst": "4.7.6",
-    "uniqCompNum": 31,
-    "versionPublish": "4.7.6",
-    "path": "@PROJECT_PATH@"
+    "uniqCompNum": 4,
+    "versionPublish": "4.7.6"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Ennapro",
-        "meta_descr": "sex \nporn\nteens\nlesbian\nsexy teen\nyoung porn 18+",
+        "title": "Home",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -65,113 +55,23 @@
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "right"
             }
           },
           "_name": "header1",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/hot-model-2000x1125.jpg\" selected parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#886586\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><a href=\"index.html\" target=\"_blank\" class=\"text-white\"><b>Ennapro.github.io</b></a>\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">Full HD Porn &nbsp;&nbsp;</h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">\n                    Интро в полную ширину с регулируемой высотой, фоновым изображением и наложением цвета. Щелкните, чтобы изменить любой текст или его стиль.\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">\n                        <span class=\"mbr-iconfont mbri-file\"></span>ПОДРОБНЕЕ</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
-          "_cid": "qVpVNFUSFF",
-          "_anchor": "header1-1",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background": "linear-gradient(45deg, @bg-value, @color2)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            }
-          },
-          "_name": "header5",
-          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/img/03.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#7fd9fc\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Цвет 2\" value=\"#6576aa\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>\n                    Relax</b> <i>Time&nbsp;</i></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                   Интро в полный экран с фоновым градиентом. Щелкните синий значок шестеренки в правом верхнем углу, чтобы скрыть/показать кнопки, текст, название или изменить фон. Нажмите красную кнопку \"+\" в правом нижнем углу, чтобы добавить новый блок. Используйте меню вверху слева для создания новых страниц, сайтов и добавления тем.\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\">ПОДРОБНЕЕ</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">ДЕМО</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "qVq3msXKcz",
-          "_anchor": "header5-5",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background": "linear-gradient(45deg, @bg-value, @color2)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-subtitle": {
-              "font-style": "italic",
-              "letter-spacing": "1rem"
-            }
-          },
-          "_name": "header11",
-          "_customHTML": "<section class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#fbac7f\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Цвет 2\" name=\"color2\" value=\"#e5658a\">\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!-- End block parameters -->\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container align-left\">\n        <div class=\"media-container-column mbr-white col-md-12\">\n            <h3 class=\"mbr-section-subtitle py-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"></h3>\n            <h1 class=\"mbr-section-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\"><br>&nbsp; &nbsp;<b><i>1080p &nbsp;Full HD</i></b>&nbsp; <b>Free</b></h1>\n            <p class=\"mbr-text py-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">Notes:&nbsp;<br>1 Double-click for full-screen mode.\n<br>2 Click \"Cancel\" in the video to skip advertising.\n<br>\n<br>3 in the mobile version after clicking \"play\" click \"video\" to start viewing\n<br>\n<br>4 To watch HD video, press \"360p\", then close the new page and press \"1080p\"  !</p>\n            <div class=\"mbr-section-btn py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">ПОДРОБНЕЕ</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">ДЕМО</a>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "qVpX4SR5Vr",
-          "_anchor": "header11-2",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".card-box": {
-              "background-color": "@cardsBg",
-              "padding": "2rem"
-            },
-            "h4": {
-              "font-weight": "500",
-              "margin-bottom": "0",
-              "text-align": "left"
-            },
-            "p": {
-              "color": "#767676",
-              "text-align": "left"
-            },
-            ".card-wrapper": {
-              "position": "relative",
-              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
-              "transition": "box-shadow 0.3s",
-              "&:hover": {
-                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
-                "transition": "box-shadow 0.3s"
-              }
-            },
-            ".card-img": {
-              "position": "absolute",
-              "top": "0",
-              "left": "0",
-              "width": "100%",
-              "overflow": "hidden"
-            }
-          },
-          "_name": "features4",
-          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        \n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Карты - Фон\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Число карт\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/img/02.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Без кодирования\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            . <!-- Begin BidVertiser code -->\n<br><script data-cfasync=\"false\" src=\"//bdv.bidvertiser.com/BidVertiser.dbm?pid=811579&bid=1947365\" type=\"text/javascript\"></script>\n<br><!-- End BidVertiser code -->.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Мобильная адаптация\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Все сайты, сделанные в Mobirise, адаптивны. Вам не нужно создавать специальную мобильную версию вашего сайта.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Уникальные стили\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise предлагает много блоков сайта в нескольких темах, и хотя эти блоки сделаны шаблонами, они гибко настраиваются.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Безлимитно\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise дает вам свободу разрабатывать столько сайтов, сколько вам нравится, при том что это настольное приложение.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qVr0O3Dvf4",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/top-desktop-wallpaper-2-1920x1200.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n            <b>ФАНТАСТИКА&nbsp;</b><br><b>смотреть фантастические фильмы</b></h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\"><br></h3>\n        <p class=\"mbr-fonts-style mbr-text align-right\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Full width intro with adjustable height, background image. Click any text to edit or style it.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n            <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">\n                LEARN MORE\n            </a>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "qVwjn8uA0o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "features4-k"
+          "_anchor": "header1-1"
         },
         {
           "_styles": {
@@ -183,532 +83,40 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".card-box": {
-              "background-color": "@cardsBg",
-              "padding": "2rem"
-            },
-            "h4": {
-              "font-weight": "500",
-              "margin-bottom": "0",
-              "text-align": "left"
-            },
-            "p": {
-              "color": "#767676",
-              "text-align": "left"
-            },
-            ".card-wrapper": {
+            ".card": {
+              "margin-bottom": "20px",
               "position": "relative",
-              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
-              "transition": "box-shadow 0.3s",
-              "&:hover": {
-                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
-                "transition": "box-shadow 0.3s"
-              }
-            },
-            ".card-img": {
-              "position": "absolute",
-              "top": "0",
-              "left": "0",
+              "display": "flex",
+              "-ms-flex-direction": "column",
+              "flex-direction": "column",
+              "min-width": "0",
+              "word-wrap": "break-word",
+              "background-clip": "border-box",
+              "border-radius": ".25rem",
               "width": "100%",
-              "overflow": "hidden"
-            }
-          },
-          "_name": "features4",
-          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        \n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Карты - Фон\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Число карт\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/img/02.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Без кодирования\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            .<iframe width=\"560\" height=\"350\" src=\"//mydaddy.cc/video/e9b82e4d55c91c6aca/\" frameborder=\"0\" allowfullscreen></iframe>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Мобильная адаптация\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">.<iframe width=\"560\" height=\"350\" src=\"//mydaddy.cc/video/47ce0875420b2dbacb/\" frameborder=\"0\" allowfullscreen></iframe>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Уникальные стили\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise предлагает много блоков сайта в нескольких темах, и хотя эти блоки сделаны шаблонами, они гибко настраиваются.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Безлимитно\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise дает вам свободу разрабатывать столько сайтов, сколько вам нравится, при том что это настольное приложение.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qVq17ZnszZ",
-          "_anchor": "features4-4",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+              "min-height": "1px"
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+            ".card-title": {
+              "margin": "0"
             },
             ".card-box": {
-              "background-color": "@cardsBg",
-              "padding": "2rem"
+              "padding-top": "2rem"
             },
-            "h4": {
-              "font-weight": "500",
-              "margin-bottom": "0",
-              "text-align": "left"
+            "amp-img": {
+              "width": "100%"
             },
-            "p": {
-              "color": "#767676",
-              "text-align": "left"
-            },
-            ".card-wrapper": {
-              "position": "relative",
-              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
-              "transition": "box-shadow 0.3s",
-              "&:hover": {
-                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
-                "transition": "box-shadow 0.3s"
-              }
-            },
-            ".card-img": {
-              "position": "absolute",
-              "top": "0",
-              "left": "0",
-              "width": "100%",
-              "overflow": "hidden"
-            }
-          },
-          "_name": "features4",
-          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        \n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Карты - Фон\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Число карт\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/02.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Без кодирования\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            .<iframe width=\"560\" height=\"350\" src=\"//mydaddy.cc/video/9d405c24be657bbfca/\" frameborder=\"0\" allowfullscreen></iframe>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Мобильная адаптация\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">.<iframe width=\"560\" height=\"350\" src=\"//mydaddy.cc/video/ae95296e27d7f695ca/\" frameborder=\"0\" allowfullscreen></iframe>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Уникальные стили\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise предлагает много блоков сайта в нескольких темах, и хотя эти блоки сделаны шаблонами, они гибко настраиваются.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Безлимитно\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise дает вам свободу разрабатывать столько сайтов, сколько вам нравится, при том что это настольное приложение.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "features4-6",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "qVq683iFRh",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".card-box": {
-              "background-color": "@cardsBg",
-              "padding": "2rem"
-            },
-            "h4": {
-              "font-weight": "500",
-              "margin-bottom": "0",
-              "text-align": "left"
-            },
-            "p": {
-              "color": "#767676",
-              "text-align": "left"
-            },
-            ".card-wrapper": {
-              "position": "relative",
-              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
-              "transition": "box-shadow 0.3s",
-              "&:hover": {
-                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
-                "transition": "box-shadow 0.3s"
-              }
-            },
-            ".card-img": {
-              "position": "absolute",
-              "top": "0",
-              "left": "0",
-              "width": "100%",
-              "overflow": "hidden"
-            }
-          },
-          "_name": "features4",
-          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        \n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Карты - Фон\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Число карт\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/02.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Без кодирования\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            .<iframe width=\"560\" height=\"350\" src=\"//mydaddy.cc/video/89b9e0a6f6d1505fcb/\" frameborder=\"0\" allowfullscreen></iframe>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Мобильная адаптация\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">.<iframe width=\"560\" height=\"350\" src=\"//mydaddy.cc/video/9523147e5a6707baca/\" frameborder=\"0\" allowfullscreen></iframe>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Уникальные стили\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise предлагает много блоков сайта в нескольких темах, и хотя эти блоки сделаны шаблонами, они гибко настраиваются.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Безлимитно\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise дает вам свободу разрабатывать столько сайтов, сколько вам нравится, при том что это настольное приложение.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "features4-7",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "qVq68KnprV",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
+            ".mbr-text": {
               "color": "#767676"
-            },
-            "H2": {
-              "text-align": "center"
             }
           },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">Double-click for full-screen mode.<br>Click \"Cancel\" in the video to skip advertising.<br><br><b>in the mobile version</b> after clicking \"play\" click \"video\" to start viewing<br><br><i>To watch HD video, press \"360p\", then close the new page and press \"1080p\" &nbsp;!</i></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Создайте свой проект с утонченным дизайном и  возможностью коррекции кода.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">ПОДРОБНЕЕ</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">ДЕМО</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qVqfoJLSXx",
-          "_anchor": "content4-a",
+          "_name": "features1",
+          "_customHTML": "<section class=\"features1 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/05.jpg\" layout=\"responsive\" width=\"540\" height=\"360\" alt=\"Mobirise\">\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/05.jpg\" alt=\"Mobirise\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Higher Perfomance\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            .<div class=\"tab_container\" style=\"position:relative;\">\n<br>\n<br><div id=\"tab1\" class=\"tab_content\">\n<br><!--noindex--><iframe width=\"640\" height=\"440\" src=\"http://37.220.36.15/video/af7d71e760f0ebed/iframe\" rel=\"nofollow\" frameborder=\"0\" scrolling=\"no\" allowfullscreen></iframe><!--/noindex-->\n<br></div>\n<br>\n<br>\n<br><div id=\"tab2\" class=\"tab_content\" style=\"display: none;\">\n<br><!--noindex--><iframe width=\"640\" height=\"440\" src=\"https://www.youtube.com/embed/k_OjiuHhvHo\" rel=\"nofollow\" frameborder=\"0\" allowfullscreen></iframe><!--/noindex-->\n<br></div>\n<br>\n<br></div>.</p>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/02.jpg\" layout=\"responsive\" height=\"360\" width=\"540\" alt=\"Mobirise\">\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/02.jpg\" alt=\"Mobirise\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Flexibility and Results\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            .<div class=\"tab_container\" style=\"position:relative;\">\n<br>\n<br><div id=\"tab1\" class=\"tab_content\">\n<br><!--noindex--><iframe width=\"640\" height=\"440\" src=\"http://37.220.36.15/video/af7d71e760f0ebed/iframe\" rel=\"nofollow\" frameborder=\"0\" scrolling=\"no\" allowfullscreen></iframe><!--/noindex-->\n<br></div>\n<br>\n<br>\n<br><div id=\"tab2\" class=\"tab_content\" style=\"display: none;\">\n<br><!--noindex--><iframe width=\"640\" height=\"440\" src=\"https://www.youtube.com/embed/k_OjiuHhvHo\" rel=\"nofollow\" frameborder=\"0\" allowfullscreen></iframe><!--/noindex-->\n<br></div>\n<br>\n<br></div>.</p>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_cid": "qVwobkn3nv",
+          "_anchor": "features1-3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            }
-          },
-          "_name": "header1",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    ИНТРО В ПОЛНУЮ ШИРИНУ\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Красивые мобильные сайты\n                </h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">\n                    Интро в полную ширину с регулируемой высотой, фоновым изображением и наложением цвета. Щелкните, чтобы изменить любой текст или его стиль.\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary-outline\" href=\"page1.html\" target=\"_blank\">HOT PAGE 2</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
-          "_cid": "qVr8NI9Tnu",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "header1-u"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            }
-          },
-          "_name": "footer6",
-          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2015-2018 Ennapro - все права защищены\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qVq6cTblBg",
-          "_anchor": "footer6-8",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": true,
-          "_params": {}
-        }
-      ]
-    },
-    "page1.html": {
-      "settings": {
-        "title": "Page 1",
-        "meta_descr": "sex \nporn\nteens\nlesbian\nsexy teen\nyoung porn 18+",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
-        "order": 1
-      },
-      "components": [
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            }
-          },
-          "_name": "header1",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/hot-model-2000x1125.jpg\" selected parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#886586\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><a href=\"index.html\" target=\"_blank\" class=\"text-white\"><b>Ennapro.github.io</b></a>\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">Full HD Porn &nbsp;&nbsp;</h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">\n                    Интро в полную ширину с регулируемой высотой, фоновым изображением и наложением цвета. Щелкните, чтобы изменить любой текст или его стиль.\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">\n                        <span class=\"mbr-iconfont mbri-file\"></span>ПОДРОБНЕЕ</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
-          "_cid": "qVr7F7ygQs",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "header1-l"
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background": "linear-gradient(45deg, @bg-value, @color2)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-subtitle": {
-              "font-style": "italic",
-              "letter-spacing": "1rem"
-            }
-          },
-          "_name": "header11",
-          "_customHTML": "<section class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#fbac7f\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Цвет 2\" name=\"color2\" value=\"#e5658a\">\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!-- End block parameters -->\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container align-left\">\n        <div class=\"media-container-column mbr-white col-md-12\">\n            <h3 class=\"mbr-section-subtitle py-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"></h3>\n            <h1 class=\"mbr-section-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\"><br>&nbsp; &nbsp;<b><i>1080p &nbsp;Full HD</i></b>&nbsp; <b>Free</b></h1>\n            <p class=\"mbr-text py-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">Notes:&nbsp;<br>1 Double-click for full-screen mode.\n<br>2 Click \"Cancel\" in the video to skip advertising.\n<br>\n<br>3 in the mobile version after clicking \"play\" click \"video\" to start viewing\n<br>\n<br>4 To watch HD video, press \"360p\", then close the new page and press \"1080p\"  !</p>\n            <div class=\"mbr-section-btn py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">ПОДРОБНЕЕ</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">ДЕМО</a>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "qVr7F8Nlyf",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "header11-n"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".card-box": {
-              "background-color": "@cardsBg",
-              "padding": "2rem"
-            },
-            "h4": {
-              "font-weight": "500",
-              "margin-bottom": "0",
-              "text-align": "left"
-            },
-            "p": {
-              "color": "#767676",
-              "text-align": "left"
-            },
-            ".card-wrapper": {
-              "position": "relative",
-              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
-              "transition": "box-shadow 0.3s",
-              "&:hover": {
-                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
-                "transition": "box-shadow 0.3s"
-              }
-            },
-            ".card-img": {
-              "position": "absolute",
-              "top": "0",
-              "left": "0",
-              "width": "100%",
-              "overflow": "hidden"
-            }
-          },
-          "_name": "features4",
-          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        \n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Карты - Фон\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Число карт\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/img/02.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Без кодирования\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            . <!-- Begin BidVertiser code -->\n<br><script data-cfasync=\"false\" src=\"//bdv.bidvertiser.com/BidVertiser.dbm?pid=811579&bid=1947365\" type=\"text/javascript\"></script>\n<br><!-- End BidVertiser code -->.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Мобильная адаптация\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Все сайты, сделанные в Mobirise, адаптивны. Вам не нужно создавать специальную мобильную версию вашего сайта.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Уникальные стили\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise предлагает много блоков сайта в нескольких темах, и хотя эти блоки сделаны шаблонами, они гибко настраиваются.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Безлимитно\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise дает вам свободу разрабатывать столько сайтов, сколько вам нравится, при том что это настольное приложение.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qVr7F9tcth",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "features4-o"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".card-box": {
-              "background-color": "@cardsBg",
-              "padding": "2rem"
-            },
-            "h4": {
-              "font-weight": "500",
-              "margin-bottom": "0",
-              "text-align": "left"
-            },
-            "p": {
-              "color": "#767676",
-              "text-align": "left"
-            },
-            ".card-wrapper": {
-              "position": "relative",
-              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
-              "transition": "box-shadow 0.3s",
-              "&:hover": {
-                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
-                "transition": "box-shadow 0.3s"
-              }
-            },
-            ".card-img": {
-              "position": "absolute",
-              "top": "0",
-              "left": "0",
-              "width": "100%",
-              "overflow": "hidden"
-            }
-          },
-          "_name": "features4",
-          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        \n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Карты - Фон\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Число карт\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/img/02.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Без кодирования\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            .<iframe width=\"560\" height=\"350\" src=\"//mydaddy.cc/video/e033fdb11f1faad8ca/\" frameborder=\"0\" allowfullscreen></iframe>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Мобильная адаптация\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">.<iframe width=\"560\" height=\"350\" src=\"//mydaddy.cc/video/73bf6c41e241e28bdb/\" frameborder=\"0\" allowfullscreen></iframe>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Уникальные стили\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise предлагает много блоков сайта в нескольких темах, и хотя эти блоки сделаны шаблонами, они гибко настраиваются.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Безлимитно\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise дает вам свободу разрабатывать столько сайтов, сколько вам нравится, при том что это настольное приложение.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qVr7FaGsCl",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "features4-p"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".card-box": {
-              "background-color": "@cardsBg",
-              "padding": "2rem"
-            },
-            "h4": {
-              "font-weight": "500",
-              "margin-bottom": "0",
-              "text-align": "left"
-            },
-            "p": {
-              "color": "#767676",
-              "text-align": "left"
-            },
-            ".card-wrapper": {
-              "position": "relative",
-              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
-              "transition": "box-shadow 0.3s",
-              "&:hover": {
-                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
-                "transition": "box-shadow 0.3s"
-              }
-            },
-            ".card-img": {
-              "position": "absolute",
-              "top": "0",
-              "left": "0",
-              "width": "100%",
-              "overflow": "hidden"
-            }
-          },
-          "_name": "features4",
-          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        \n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Карты - Фон\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Число карт\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/02.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Без кодирования\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            .<iframe width=\"560\" height=\"350\" src=\"//mydaddy.cc/video/4c12343400ce0c14cb/\" frameborder=\"0\" allowfullscreen></iframe>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Мобильная адаптация\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">.<iframe width=\"560\" height=\"350\" src=\"//mydaddy.cc/video/ac4d17530106c3e3cb/\" frameborder=\"0\" allowfullscreen></iframe>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Уникальные стили\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise предлагает много блоков сайта в нескольких темах, и хотя эти блоки сделаны шаблонами, они гибко настраиваются.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Безлимитно\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise дает вам свободу разрабатывать столько сайтов, сколько вам нравится, при том что это настольное приложение.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "qVr7FbMk9M",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "features4-q"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".card-box": {
-              "background-color": "@cardsBg",
-              "padding": "2rem"
-            },
-            "h4": {
-              "font-weight": "500",
-              "margin-bottom": "0",
-              "text-align": "left"
-            },
-            "p": {
-              "color": "#767676",
-              "text-align": "left"
-            },
-            ".card-wrapper": {
-              "position": "relative",
-              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
-              "transition": "box-shadow 0.3s",
-              "&:hover": {
-                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
-                "transition": "box-shadow 0.3s"
-              }
-            },
-            ".card-img": {
-              "position": "absolute",
-              "top": "0",
-              "left": "0",
-              "width": "100%",
-              "overflow": "hidden"
-            }
-          },
-          "_name": "features4",
-          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        \n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Карты - Фон\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Число карт\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/02.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>     \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Без кодирования\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            .<iframe width=\"560\" height=\"350\" src=\"//mydaddy.cc/video/32b8923dc22023d0ca/\" frameborder=\"0\" allowfullscreen></iframe>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Мобильная адаптация\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">.<iframe width=\"560\" height=\"350\" src=\"//mydaddy.cc/video/38ccdf8d538de2d6ca/\" frameborder=\"0\" allowfullscreen></iframe>.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Уникальные стили\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise предлагает много блоков сайта в нескольких темах, и хотя эти блоки сделаны шаблонами, они гибко настраиваются.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper media-container-row\">\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Безлимитно\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise дает вам свободу разрабатывать столько сайтов, сколько вам нравится, при том что это настольное приложение.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "qVr7KULgxf",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "features4-r"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#767676"
-            },
-            "H2": {
-              "text-align": "center"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">Double-click for full-screen mode.<br>Click \"Cancel\" in the video to skip advertising.<br><br><b>in the mobile version</b> after clicking \"play\" click \"video\" to start viewing<br><br><i>To watch HD video, press \"360p\", then close the new page and press \"1080p\" &nbsp;!</i></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Создайте свой проект с утонченным дизайном и  возможностью коррекции кода.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">ПОДРОБНЕЕ</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">ДЕМО</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qVr7KVFHFx",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "content4-s"
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background": "linear-gradient(45deg, @bg-value, @color2)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            }
-          },
-          "_name": "header5",
-          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/img/03.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#7fd9fc\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Цвет 2\" value=\"#6576aa\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>\n                    Relax</b> <i>Time&nbsp;</i></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                   Интро в полный экран с фоновым градиентом. Щелкните синий значок шестеренки в правом верхнем углу, чтобы скрыть/показать кнопки, текст, название или изменить фон. Нажмите красную кнопку \"+\" в правом нижнем углу, чтобы добавить новый блок. Используйте меню вверху слева для создания новых страниц, сайтов и добавления тем.\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"index.html\">HOME</a></div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "qVr7F89V6t",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "header5-m"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            }
-          },
-          "_name": "footer6",
-          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2015-2018 Ennapro - все права защищены\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qVr7KWaGAP",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": true,
-          "_params": {},
-          "_anchor": "footer6-t"
         }
       ]
     }
